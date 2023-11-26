@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for you - Akriti</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <h2 class="question">Do you love me?</h2>
+        <img class="gif" alt="gif" src="https://media.giphy.com/media/xZn6QSIyPKNpaTbGa2/giphy.gif"/>
+        <div class="btn-group">
+            <button class="yes-btn">Yes</button>
+            <button class="no-btn">No</button>
+        </div>
+    </div>
+    <div class="wrapper" id="dateSection" style="display: none;">
+        <h2 class="question">Will you go out with me?</h2>
+        <img class="gif" alt="gif" src="https://media.giphy.com/media/ZXGTjHUbZfyjxv8jkN/giphy.gif"/>
+        <div class="btn-group">
+            <button class="yes-btn" onclick="showNextQuestion('saturdaySection', 'See you on Saturday!!')">Yes</button>
+            <button class="no-btn">No</button>
+        </div>
+    </div>
+    <div class="wrapper" id="saturdaySection" style="display: none;">
+        <h2 class="question">See you on Saturday!!</h2>
+        <img class="gif" alt="gif" src="https://media.giphy.com/media/a7Ytrd0lTov5lYMsqe/giphy.gif"/>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
